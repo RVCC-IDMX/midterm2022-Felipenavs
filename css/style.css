@@ -1,0 +1,145 @@
+
+
+/* body */
+body, html {
+    height: 100%;
+    background-color: black;
+    color:  #DFE7F2;
+    font-family: roboto;
+}
+
+/* header */
+header { 
+    font-family: sacramento;
+    background-color: #A6633C;
+    color: black;
+    font-size: 1.5em;
+    border-bottom: solid black 6px;
+
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h2 {
+    margin: 0;
+    
+}
+
+
+/* This is for the hero */
+.hero {
+    padding:10px;     
+    background-image: url(../images/heroback.jpg);         
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;   
+    display: flex;
+    box-sizing: content-box;
+} 
+
+.hero div {
+    height: 500px;
+    
+}
+
+#myself {
+   
+    padding-top: 10%;
+    padding-left: 5%;
+    height: 50%;
+    width:auto
+    
+}
+
+#myself figcaption {
+    text-align: left;
+}
+
+
+
+/*This is for the middle part */
+.middle {
+    font-family: roboto;
+    font-size: 1.5;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(106, 117, 131);
+    padding: 200px;
+   
+    color: white;
+
+}
+
+.middle div{
+    
+    width: 50%;
+    padding: 10%;
+    
+}
+
+/* this is the projects section*/
+
+.projects h2 {
+    text-align: center;
+}
+
+.projects div ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+/* This section is for the gallery */
+.gallery h2 {
+    background-color: #A6633C;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; 
+    justify-content: space-around;   
+    background-color: blanchedalmond; 
+    color:black;  
+}
+
+figure {
+    width: 25%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.gallery h2 {
+    text-align: center;
+
+}
+
+/*This section is for the footer*/
+footer {
+    text-align: center;
+    
+    font-size: 1em;
+    background-color: #A6633C;
+    font-size:1em;
+    margin-top: 0;
+} 
+
+footer p {
+    margin-top: 0;
+    padding: 5px;
+
+}
